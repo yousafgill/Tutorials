@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace YousafGill.Tutorials.SimpleCalculator
@@ -20,6 +13,12 @@ namespace YousafGill.Tutorials.SimpleCalculator
         private void Form1_Load(object sender, EventArgs e)
         {
             //Form Load Code Here
+        }
+        private void NumberClick(object sender,EventArgs e)
+        {
+            //Button btn = (Button)sender;
+            // OR 
+            Button b = sender as Button;
         }
     }
 }
