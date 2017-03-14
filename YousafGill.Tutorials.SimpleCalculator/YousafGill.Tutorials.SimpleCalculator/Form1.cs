@@ -16,5 +16,10 @@ namespace YousafGill.Tutorials.SimpleCalculator
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //Form Load Code Here
+        }
     }
 }
